@@ -5,7 +5,7 @@
 [![Downloads](https://img.shields.io/badge/telegram-yakubovdeveloper-green)](https://t.me/yakubovdeveloper)
 [![Downloads](https://img.shields.io/badge/author-Sirojiddin_Yakubov-green)](https://t.me/Sirojiddin_Yakubov)
 <div align="center">
-<h1>Интеграция системы (Eskiz, PLaymobile, Infobip) отправить sms в Python</h1>
+<h1>Интеграция системы (Eskiz, Playmobile, Infobip) отправить sms в Python</h1>
 </div>
 
 Этот репозиторий содержит готовые коды того, как можно отправлять СМС операторам мобильной связи. 
