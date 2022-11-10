@@ -117,7 +117,7 @@ python infobip.py
 
 Для более подробной информации вы можете посмотреть это видео
 
-[![Watch the video](https://img.youtube.com/vi/6ueLGj3Ea5M/maxresdefault.jpg)](https://www.youtube.com/watch?v=6ueLGj3Ea5M)
+[![Watch the video](https://img.youtube.com/vi/dMlRWSS1Y3s/maxresdefault.jpg)](https://www.youtube.com/watch?v=dMlRWSS1Y3s)
 
 <h3>Спасибо за внимание!</h3>
 

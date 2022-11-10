@@ -25,7 +25,7 @@ class SendSmsApiWithEskiz:
         self.email = email
         self.password = password
 
-    def get(self):
+    def send(self):
         status_code = self.custom_validation()
         if status_code == SUCCESS:
             result = self.calculation_send_sms(self.message)
@@ -168,6 +168,6 @@ class SendSmsApiWithEskiz:
 message = "Салом дунё"
 phone = 919791999
 eskiz_api = SendSmsApiWithEskiz(message=message, phone=phone)
-r = eskiz_api.get()
+r = eskiz_api.send()
 
 print(r)

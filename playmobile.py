@@ -21,7 +21,8 @@ PLAYMOBILE_ENDPOINT = os.getenv('PLAYMOBILE_ENDPOINT')
 
 
 class SendSmsWithPlayMobile:
-    def __init__(self, message, phone, username=PLAYMOBILE_USERNAME, password=PLAYMOBILE_PASSWORD, endpoint=PLAYMOBILE_ENDPOINT):
+    def __init__(self, message, phone, username=PLAYMOBILE_USERNAME, password=PLAYMOBILE_PASSWORD,
+                 endpoint=PLAYMOBILE_ENDPOINT):
         self.message = message
         self.message_id = random.randint(100000000, 999999999)
         self.phone = phone
@@ -30,7 +31,7 @@ class SendSmsWithPlayMobile:
         self.password = password
         self.endpoint = endpoint
 
-    def get(self):
+    def send(self):
         step1 = self.custom_validation()
         if step1['status'] == SUCCESS:
             message = self.clean_message(self.message)
@@ -151,6 +152,6 @@ class SendSmsWithPlayMobile:
 message = "Салом дунё"
 phone = 919791999
 playmobile_api = SendSmsWithPlayMobile(message=message, phone=phone)
-r = playmobile_api.get()
+r = playmobile_api.send()
 
 print(r)
